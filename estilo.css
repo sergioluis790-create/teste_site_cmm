@@ -27,7 +27,9 @@ body {
     font-size: 12pt;
     background-image: linear-gradient(rgba(34, 34, 143, 0.795),rgba(119, 117, 117, 0.596),rgba(34, 34, 143, 0.795));
 }*/
-
+html {
+    height: 100%;
+}
 body {/* Inicio das configurações de estilo do site*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     background-image: linear-gradient(rgba(34, 34, 143, 0.795),rgba(119, 117, 117, 0.596),rgba(34, 34, 143, 0.795));
@@ -37,8 +39,8 @@ body {/* Inicio das configurações de estilo do site*/
     background-attachment: fixed;
     min-width: 590px;
     display: block;
-    padding: 5px;
-    margin: auto;
+    padding: 2px;
+    margin: auto auto 0px auto;
     
     
 } /* O boby está responsivo a todas as telas testasdas*/
@@ -121,7 +123,7 @@ div#cntto {
 }
 
 div#cntto > a {
-    padding-right: 10px;
+    padding-right: 5px;
 }/* final das configurações de estilo do cabeçalho do site*/
 
 nav#menu {/* Inicio das configurações de estilo do menu do site*/
@@ -474,7 +476,7 @@ footer > div {
 }
 
 .rodape > a {
-    padding-right: 5px;   
+    padding-right: 3px;   
 }
 div#cruz > img {
     padding-left: 5px;
