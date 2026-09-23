@@ -74,7 +74,6 @@ h3{
 
 p{
     font-size: 16px;
-    margin: 1px 0px 1px 10px;
     text-indent: 20px;
     text-align: justify;
     margin-bottom: 1em;
@@ -438,17 +437,17 @@ div#bloco2{
 }
 
 .mapbox {
-   
-    width: 550px;
-    height: 450px;
     background-color: #f5f5f543;
     padding: 2px;
     border-radius: 15px;
     box-shadow: #05050530 1px 1px 1px 1px;  
 }
 
-.mapbox > iframe {
+.centrom {
+    width: 600px;
+    height: 500px;
     border-radius: 15px;
+
 }
 /* final das configurações de estilo do corpo do site*/
 

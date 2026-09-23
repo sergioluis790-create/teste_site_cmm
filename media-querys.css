@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 140px) and (max-width: 1138px) {
+@media screen and (min-width: 140px) and (max-width: 938px) {
 
     div#lg > img {
     width: 108px;
@@ -10,7 +10,7 @@
     }
     header > div {
     display: grid;
-    grid-template-columns: 3fr 1.1fr;
+    grid-template-columns: 2.9fr 1.3fr;
 }
     div#lg > q {
     color: #1917a3d8;
@@ -102,13 +102,11 @@
 
 
     
-.mapbox > iframe {
+.centrom {
     width: 350px;
     height: 350px;
-    background-color: #f5f5f543;
-    padding: 2px;
     border-radius: 15px;
-    box-shadow: #05050530 1px 1px 1px 1px;  
+
 }
 
 .mapbox{
