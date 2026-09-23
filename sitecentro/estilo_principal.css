@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*
+cod css para o menu de navegação flutuar por cima da página e ficar alinhado à direita 
+    nav#menu {
+    padding: 5px;
+    text-align: left;
+    float: right;
+    margin: 10px 270px 50px 100px;
+    background-color: #f5f5f5;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: #050505 0px 0px 10px;
+*/
+/* cod para carregar imagen de fundo de tela
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    padding: 10;
+    background-image: url(sitecentro/imagens-para-o-site/fundo.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    font: 12pt;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    font-size: 12pt;
+}*/
+
+body {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    background-image: linear-gradient(rgba(34, 34, 143, 0.795),rgba(119, 117, 117, 0.596),rgba(34, 34, 143, 0.795));
+    font: 12pt;
+       
+} /* O boby está responsivo a todas as telas testasdas*/
+
+header#cabecalho {
+
+    background-color: rgba(252, 252, 255, 0.815);
+    border-radius: 0px 15px 1px 15px;
+    box-shadow: #050505 0px 0px 10px;
+    padding: 5px;
+    font-size: 16px;
+    margin: auto auto 2px auto;
+        
+}
+
+header#cabecalho > q {
+
+    color: #1917a3d8;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto 300px auto auto;
+    padding: 5px;
+    text-shadow: #1917a3a6 0px 0px 2px;
+    
+}
+
+header#cabecalho > a {
+    margin: auto 5px 50px 0px;
+}
+
+header#cabecalho > img {
+    width: 172px;
+    height: 70px;
+}
+
+
+nav#menu {
+    padding: 5px;
+    text-align: left;
+    float: right;
+    background-color: #f5f5f5d0;
+    border-radius: 5px 0px 15px 15px;
+    box-shadow: #050505 0px 0px 10px;
+    }
+    
+nav#menu > a {
+    color: #000005;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px;
+    text-decoration: none;
+   
+}
+
+nav#menu > a:hover {
+    background-color: #ebdd1281;
+    color: #0000ff;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: #ebdc12 0px 0px 10px;
+}
+
+main {
+        margin: 148px auto;
+        min-width: 270px;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f5f5f5bd;
+        border-radius: 5px 15px 5px 15px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    
+
+}
+footer {
+    background-color: #f5f5f5cb;
+    border-radius: 15px;
+    box-shadow: #0505057a 0px 0px 10px;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 80%;
+    margin-bottom: 0%;
+    
+}
+
+footer > p {
+    text-align: center;
+    font-size: 12px;
+    color: #000000;    
+}
