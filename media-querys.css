@@ -82,6 +82,21 @@ section#consulta {
     background-size: cover;  
 }
 
+div#bloco1 {
+    background-image: url(sitecentro/imagens-para-o-site/front_cmm.jpeg);
+    background-size: contain; 
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 27vh;
+}
+
+div#bloco2{
+    background-image: url(sitecentro/imagens-para-o-site/front_cm.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
 #lista_horario > li{
     display: flex;
     justify-content: space-between;
