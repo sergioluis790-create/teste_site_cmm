@@ -373,7 +373,7 @@ section#fisioterapia {
 
 .horario {
     background-color:#0000007c ;
-    width: 770px;
+    width: 765px;
     height: 300px;
     border-radius: 15px;
     box-shadow: #05050530 1px 1px 1px 1px;
@@ -382,9 +382,9 @@ section#fisioterapia {
 #lista_horario > li{
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 60px;
-    padding: 7px 0px;
+    padding: 0px 0px;
     border-bottom: 1px solid burlywood;  
 }
 
@@ -404,15 +404,15 @@ a#link-lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
-    margin-top: 20px;
+    gap: 15px;
+    
 }
 
 .bloco_inf {
-    width: 350px;
+    width: 370px;
     height: 310px;
     background-color: #0000007c ;
-    padding: 10px;
+    padding: 0px;
     border-radius: 15px;
     box-shadow: inset #05050530 1px 1px 1px 1px;
     justify-content: center;

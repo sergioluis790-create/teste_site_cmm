@@ -1,6 +1,43 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 140px) and (max-width: 938px) {
+@media screen and (min-width: 388px) and (max-width: 938px) {
+
+    h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #10039af8;
+    margin: 5px 0px 15px 0px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+        color: #10039af8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    h3{
+        text-indent: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 2px 0px 8px 0px;
+        color: #10039af8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    p{
+        font-size: 12px;
+        text-indent: 5px;
+        text-align: justify;
+        margin-bottom: 1em;
+    }/* final das configurações  gerais de estilo do site*/
 
     div#lg > img {
     width: 98px;
@@ -11,7 +48,7 @@
     header > div {
     display: grid;
     grid-template-columns: 2.9fr 1.3fr;
-}
+    }
     div#lg > q {
     color: #1917a3d8;
     font-size: 10px;
@@ -74,115 +111,315 @@
     background-color: #f5f5f5d7;
     border-radius: 5px 15px 5px 15px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
-}
+    }
 
-section#consulta {
-    background-image: url(sitecentro/imagens-para-o-site/consulta.jpg);
-    background-position: center right;
-    background-size: cover;  
-}
+    section#consulta {
+        background-image: url(sitecentro/imagens-para-o-site/consulta.jpg);
+        background-position: center right;
+        background-size: cover;  
+    }
 
-div#bloco1 {
-    background-image: url(sitecentro/imagens-para-o-site/front_cmm.jpeg);
-    background-size: contain; 
-    background-position: center ;
-    background-repeat: no-repeat;
-    height: 27vh;
-}
+    div#bloco1 {
+        background-image: url(sitecentro/imagens-para-o-site/front_cmm.jpeg);
+        background-size: contain; 
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: 27vh;
+    }
 
-div#bloco2{
-    background-image: url(sitecentro/imagens-para-o-site/front_cm.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-}
+    div#bloco2{
+        background-image: url(sitecentro/imagens-para-o-site/front_cm.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }
 
-#lista_horario > li{
-    display: flex;
-    justify-content: space-between;
-    margin-left: -20px;
-    margin-right: 15px;
-    padding: 7px 0px;
-    border-bottom: 1px solid burlywood;  
-}
+    #lista_horario > li{
+        display: flex;
+        justify-content: space-between;
+        margin-left: -20px;
+        margin-right: 15px;
+        padding: 7px 0px;
+        border-bottom: 1px solid burlywood;  
+    }
 
-.bloco_inf {
-    width: 350px;
-    height: 400px;
-    background-color: #0000007c ;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: inset #05050530 1px 1px 1px 1px;
-    justify-content: center;
-}
+    .bloco_inf {
+        width: 350px;
+        height: 400px;
+        background-color: #0000007c ;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: inset #05050530 1px 1px 1px 1px;
+        justify-content: center;
+    }
 
-.horario {
-    background-color:#0000007c ;
-    width: 770px;
-    height: 450px;
-    border-radius: 15px;
-    box-shadow: #05050530 1px 1px 1px 1px;
-}
-.lista_inf > p {
-    text-align: left;
-    text-indent: 0px;
-    margin-left: 0px; 
-    color: #d4d11e;
-    text-shadow: rgb(14, 13, 13) 1px 1px ;}
+    .horario {
+        background-color:#0000007c ;
+        width: 770px;
+        height: 450px;
+        border-radius: 15px;
+        box-shadow: #05050530 1px 1px 1px 1px;
+    }
+    .lista_inf > p {
+        text-align: left;
+        text-indent: 0px;
+        margin-left: 0px; 
+        color: #d4d11e;
+        text-shadow: rgb(14, 13, 13) 1px 1px ;}
 
 
+        
+    .centrom {
+        width: 350px;
+        height: 350px;
+        border-radius: 15px;
+
+    }
+
+    .mapbox{
+        width: 350px;
+        height: 350px;
+        background-color: #f5f5f543;
+        padding: 2px;
+        border-radius: 15px;
+        box-shadow: #05050530 1px 1px 1px 1px;  
+    }
+
+    .seguros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .seguro {
+        box-shadow: #0505050e 1px 1px 1px 1px;
+        background-color:#fefbfb7c ;
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;   
+    }
+
+    footer > div {
+        display: grid;
+        grid-template-columns:0fr 2.7fr 1.5fr;
+        padding: 0px;  
+    }
+
+    .rodape > p {
+        text-align: center;
+        font-size: 9px;
+        color: #000000;
+        margin: 1px auto auto auto;
+        text-indent: 0px;
+    }
+
+    div#cruz > img {
+        padding-left: 0px;
+        width: 15px;
+        height: 15px;
+    }
+
+    }
+
+@media screen and (min-width: 140px) and (max-width: 387px) {
+
+    h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #10039af8;
+    margin: 5px 0px 15px 0px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px 0px 5px 0px;
+        text-align: center;
+        color: #10039af8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    h3{
+        text-indent: 0px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #10039af8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    p{
+        font-size: 12px;
+        text-indent: 5px;
+        text-align: justify;
+        margin-bottom: 1em;
+    }/* final das configurações  gerais de estilo do site*/
+
+    .lista_inf > p {
+        text-align: left;
+        color: #d4d11e;
+        text-shadow: rgb(14, 13, 13) 1px 1px ;}
+
+    header > div {
+        display: grid;
+        grid-template-columns: 2.9fr 1.9fr;
+            }
+
+    nav#menu {/* Inicio das configurações de estilo do menu do site*/
+        display: none;
+        padding: 5px;
+        text-align: center;
+        float: right;
+        background-color: #fbfbfbab;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: #050505 0px 0px 5px;
+        float: none;
+    }
     
-.centrom {
-    width: 350px;
-    height: 350px;
+    nav#menu > a {
+        display: block;
+        text-decoration-line: initial;
+        font-style: italic;
+        font-weight: bolder;
+        padding: 3px;
+        text-decoration: none; 
+        background-color: none;
+        color: #1917a3d8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    span#menu-burguer{
+        background-color: #f5f5f5ab;
+        display: block;
+        text-align: center;
+        border-radius: 5px 0px 5px 5px;
+        margin: auto auto 2px auto;
+        color: #1917a3d8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }
+
+    span#menu-burguer:hover {
+        font-weight: bolder;
+        color: #1917a3d8;
+        text-shadow: #ebdd126f 1px 1px 0px;
+    }/* final das configurações de estilo do menu do site*/
+    
+    main { /* inicio das configurações de estilo do corpo do site*/
+    margin: 5% auto;
+    min-width: 270px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f5f5f5d7;
+    border-radius: 5px 15px 5px 15px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    div#bloco1 {
+        background-image: url(sitecentro/imagens-para-o-site/front_cmm.jpeg);
+        background-size: contain; 
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: 43vh;
+    }
+
+    div#bloco2{
+        background-image: url(sitecentro/imagens-para-o-site/front_cm.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 45vh;
+    }
+
+
+    #lista_horario > li{
+        display: flex;
+        margin-left: -10px;
+        margin-right: 0px;
+        padding: 5px 5px ;
+        border-bottom: 1px solid burlywood;  
+    }
+    
+    .seguros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .seguro {
+        box-shadow: #0505050e 1px 1px 1px 1px;
+        background-color:#fefbfb7c ;
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;   
+    }
+
+    section#consulta {
+        background-image: url(sitecentro/imagens-para-o-site/consulta.jpg);
+        background-position: center right;
+        background-size: cover;  
+    }
+    section#laboratorio {
+    background-image: url(sitecentro/imagens-para-o-site/laboratorio0.png);
+    background-position: center center;
+    background-size: cover;
+    }
+    section#cardiologia {
+        background-image: url(sitecentro/imagens-para-o-site/cardiologia.jpg);
+        background-position: center;
+        background-size: auto;
+    }
+    section#fisioterapia {
+        background-image: url(sitecentro/imagens-para-o-site/fisioterapia.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .centrom {
+    width: 270px;
+    height: 270px;
     border-radius: 15px;
 
-}
+    }
 
-.mapbox{
-    width: 350px;
-    height: 350px;
+    .mapbox{
+    width: 270px;
+    height: 270px;
     background-color: #f5f5f543;
     padding: 2px;
     border-radius: 15px;
     box-shadow: #05050530 1px 1px 1px 1px;  
-}
+    }
 
-.seguros {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-}
-
-.seguro {
-    box-shadow: #0505050e 1px 1px 1px 1px;
-    background-color:#fefbfb7c ;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;   
-}
-
-footer > div {
+    footer > div {
     display: grid;
-    grid-template-columns:0fr 2.7fr 1.5fr;
+    grid-template-columns: 0fr 2.7fr 2fr;
     padding: 0px;  
-}
+    }
 
-.rodape > p {
+    .rodape > p {
     text-align: center;
     font-size: 9px;
     color: #000000;
     margin: 1px auto auto auto;
     text-indent: 0px;
-}
+    }
 
-div#cruz > img {
-    padding-left: 0px;
-    width: 15px;
-    height: 15px;
-}
-
+    div#cruz > img {
+        padding-left: 0px;
+        width: 15px;
+        height: 15px;
+    }
+     
+    ul{
+        padding-inline-start: 18px;
+    }
 }
