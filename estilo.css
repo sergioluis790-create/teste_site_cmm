@@ -388,7 +388,7 @@ section#fisioterapia {
     border-bottom: 1px solid burlywood;  
 }
 
-a#link-lista {
+.link-lista {
     color: #d4d11e;
     font-weight: bolder;
     text-shadow: rgb(14, 13, 13) 1px 1px ;
