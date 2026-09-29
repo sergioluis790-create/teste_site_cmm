@@ -3,14 +3,14 @@
 @media screen and (min-width: 408px) and (max-width: 458px) {
 
     h1{
-    font-size: 24px;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: #10039af8;
-    margin: 5px 0px 15px 0px;
-    text-align: center;
-    font-style: italic;
-    text-shadow: #ebdd126f 1px 1px 0px;
+        font-size: 24px;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #10039af8;
+        margin: 5px 0px 15px 0px;
+        text-align: center;
+        font-style: italic;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     h2{
@@ -39,32 +39,30 @@
     }/* final das configurações  gerais de estilo do site*/
 
     div#lg > img {
-    width: 98px;
-    height: 52px;
-    margin-top: 3px;
-    margin-bottom: 1px;
+        width: 88px;
+        height: 52px;
+        margin-top: 3px;
+        margin-bottom: 1px;
     }
     header > div {
-    display: grid;
-    grid-template-columns: 3fr 1.1fr;
+        display: grid;
+        grid-template-columns: 3fr 1.1fr;
     }
     
     div#lg > q {
-    color: #1917a3d8;
-    font-size: 12px;
-    text-align: left;
-    font-style: italic;
-    font-weight: bold;
-
-    
-    text-shadow: #ebdd126f 1px 1px 0px;
+        color: #1917a3d8;
+        font-size: 12px;
+        text-align: left;
+        font-style: italic;
+        font-weight: bold;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     div#cntto > a {
         padding-right: 0px;
     }
     div#cntto {
-    margin: 30px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
     }
     nav#menu {/* Inicio das configurações de estilo do menu do site*/
         display: none;
@@ -106,13 +104,13 @@
     }/* final das configurações de estilo do menu do site*/
     
     main { /* inicio das configurações de estilo do corpo do site*/
-    margin: 5% auto;
-    min-width: 270px;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #f5f5f5d7;
-    border-radius: 5px 15px 5px 15px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+        margin: 5% auto;
+        min-width: 270px;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f5f5f5d7;
+        border-radius: 5px 15px 5px 15px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     }
 
     section#consulta {
@@ -228,14 +226,14 @@
 
 @media screen and (min-width:353px) and (max-width: 408px){
     h1{
-    font-size: 24px;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: #10039af8;
-    margin: 5px 0px 15px 0px;
-    text-align: center;
-    font-style: italic;
-    text-shadow: #ebdd126f 1px 1px 0px;
+        font-size: 24px;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #10039af8;
+        margin: 5px 0px 15px 0px;
+        text-align: center;
+        font-style: italic;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     h2{
@@ -264,15 +262,14 @@
     }/* final das configurações  gerais de estilo do site*/
 
     div#lg > img {
-    width: 88px;
-    height: 52px;
-    margin-top: 3px;
-    margin-bottom: 1px;
+        width: 88px;
+        height: 52px;
+        margin-top: 3px;
+        margin-bottom: 1px;
     }
     header > div {
-    display: grid;
-    grid-template-columns: 2.9fr 1,3fr;
-    
+        display: grid;
+        grid-template-columns: 2.9fr 1,3fr;
     }
 
     div#cntto {
@@ -281,19 +278,19 @@
     }
     
     div#lg > q {
-    color: hsla(241, 75%, 36%, 0.847);
-    font-size: 10px;
-    text-align: left;
-    font-style: italic;
-    font-weight: bold;
-    text-shadow: #ebdd126f 1px 1px 0px;
+        color: hsla(241, 75%, 36%, 0.847);
+        font-size: 10px;
+        text-align: left;
+        font-style: italic;
+        font-weight: bold;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     div#cntto > a {
         padding-right: 0px;
     }
     div#cntto {
-    margin: 30px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
     }
     nav#menu {/* Inicio das configurações de estilo do menu do site*/
         display: none;
@@ -335,13 +332,13 @@
     }/* final das configurações de estilo do menu do site*/
     
     main { /* inicio das configurações de estilo do corpo do site*/
-    margin: 5% auto;
-    min-width: 270px;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #f5f5f5d7;
-    border-radius: 5px 15px 5px 15px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+        margin: 5% auto;
+        min-width: 270px;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f5f5f5d7;
+        border-radius: 5px 15px 5px 15px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     }
 
     section#consulta {
@@ -433,17 +430,17 @@
     }
 
     footer > div {
-    display: grid;
-    grid-template-columns: 0fr 2.7fr 2fr;
-    padding: 0px;  
+        display: grid;
+        grid-template-columns: 0fr 2.7fr 2fr;
+        padding: 0px;  
     }
 
     .rodape > p {
-    text-align: center;
-    font-size: 9px;
-    color: #000000;
-    margin: 1px auto auto auto;
-    text-indent: 0px;
+        text-align: center;
+        font-size: 9px;
+        color: #000000;
+        margin: 1px auto auto auto;
+        text-indent: 0px;
     }
 
     .rodape > a {
@@ -462,16 +459,16 @@
     }
 }
 
-@media screen and (min-width: 345px) and (max-width: 352px) {
-     h1{
-    font-size: 22px;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: #10039af8;
-    margin: 5px 0px 15px 0px;
-    text-align: center;
-    font-style: italic;
-    text-shadow: #ebdd126f 1px 1px 0px;
+@media screen and (min-width: 345px) and (max-width: 353px) {
+    h1{
+        font-size: 22px;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #10039af8;
+        margin: 5px 0px 15px 0px;
+        text-align: center;
+        font-style: italic;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     h2{
@@ -500,15 +497,14 @@
     }/* final das configurações  gerais de estilo do site*/
 
     div#lg > img {
-    width: 78px;
-    height: 52px;
-    margin-top: 3px;
-    margin-bottom: 1px;
+        width: 78px;
+        height: 52px;
+        margin-top: 3px;
+        margin-bottom: 1px;
     }
     header > div {
-    display: grid;
-    grid-template-columns: 2.9fr 1,3fr;
-    
+        display: grid;
+        grid-template-columns: 2.9fr 1,3fr;
     }
 
     div#cntto {
@@ -517,21 +513,19 @@
     }
     
     div#lg > q {
-    color: hsla(241, 75%, 36%, 0.847);
-    font-size: 10px;
-    text-align: left;
-    font-style: italic;
-    font-weight: bold;
-
-    
-    text-shadow: #ebdd126f 1px 1px 0px;
+        color: hsla(241, 75%, 36%, 0.847);
+        font-size: 10px;
+        text-align: left;
+        font-style: italic;
+        font-weight: bold;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     div#cntto > a {
         padding-right: 0px;
     }
     div#cntto {
-    margin: 30px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
     }
     nav#menu {/* Inicio das configurações de estilo do menu do site*/
         display: none;
@@ -573,13 +567,13 @@
     }/* final das configurações de estilo do menu do site*/
     
     main { /* inicio das configurações de estilo do corpo do site*/
-    margin: 5% auto;
-    min-width: 270px;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #f5f5f5d7;
-    border-radius: 5px 15px 5px 15px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+        margin: 5% auto;
+        min-width: 270px;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f5f5f5d7;
+        border-radius: 5px 15px 5px 15px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     }
 
     section#consulta {
@@ -672,17 +666,17 @@
     }
 
     footer > div {
-    display: grid;
-    grid-template-columns: 0fr 2.7fr 2fr;
-    padding: 0px;  
+        display: grid;
+        grid-template-columns: 0fr 2.7fr 2fr;
+        padding: 0px;  
     }
 
     .rodape > p {
-    text-align: center;
-    font-size: 9px;
-    color: #000000;
-    margin: 1px auto auto auto;
-    text-indent: 0px;
+        text-align: center;
+        font-size: 9px;
+        color: #000000;
+        margin: 1px auto auto auto;
+        text-indent: 0px;
     }
 
     .rodape > a {
@@ -701,22 +695,22 @@
     }
 }
 
-@media screen and (min-width: 317px) and (max-width: 344px) {
+@media screen and (min-width: 317px) and (max-width: 345px) {
 
     header > div {
-    display: grid;
-    grid-template-columns: 2.9fr 1.3fr;
+        display: grid;
+        grid-template-columns: 2.9fr 1.3fr;
     }
 
     h1{
-    font-size: 24px;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: #10039af8;
-    margin: 5px 0px 15px 0px;
-    text-align: center;
-    font-style: italic;
-    text-shadow: #ebdd126f 1px 1px 0px;
+        font-size: 24px;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #10039af8;
+        margin: 5px 0px 15px 0px;
+        text-align: center;
+        font-style: italic;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     h2{
@@ -754,16 +748,16 @@
     header > div {
         display: grid;
         grid-template-columns: 2.9fr 1.9fr;
-        }
+    }
    
     div#lg > q {
-    color: #1917a3d8;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    margin: auto;
-    padding: 2px;
-    text-shadow: #ebdd126f 1px 1px 0px;
+        color: #1917a3d8;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        margin: auto;
+        padding: 2px;
+        text-shadow: #ebdd126f 1px 1px 0px;
     }
 
     nav#menu {/* Inicio das configurações de estilo do menu do site*/
@@ -806,13 +800,13 @@
     }/* final das configurações de estilo do menu do site*/
     
     main { /* inicio das configurações de estilo do corpo do site*/
-    margin: 5% auto;
-    min-width: 270px;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #f5f5f5d7;
-    border-radius: 5px 15px 5px 15px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+        margin: 5% auto;
+        min-width: 270px;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f5f5f5d7;
+        border-radius: 5px 15px 5px 15px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     }
     
     div#bloco1 {
@@ -872,9 +866,9 @@
         background-size: cover;  
     }
     section#laboratorio {
-    background-image: url(sitecentro/imagens-para-o-site/laboratorio0.png);
-    background-position: center center;
-    background-size: cover;
+        background-image: url(sitecentro/imagens-para-o-site/laboratorio0.png);
+        background-position: center center;
+        background-size: cover;
     }
     section#cardiologia {
         background-image: url(sitecentro/imagens-para-o-site/cardiologia.jpg);
@@ -888,33 +882,33 @@
     }
 
     .centrom {
-    width: 270px;
-    height: 270px;
-    border-radius: 15px;
+        width: 270px;
+        height: 270px;
+        border-radius: 15px;
 
     }
 
     .mapbox{
-    width: 270px;
-    height: 270px;
-    background-color: #f5f5f543;
-    padding: 2px;
-    border-radius: 15px;
-    box-shadow: #05050530 1px 1px 1px 1px;  
+        width: 270px;
+        height: 270px;
+        background-color: #f5f5f543;
+        padding: 2px;
+        border-radius: 15px;
+        box-shadow: #05050530 1px 1px 1px 1px;  
     }
 
     footer > div {
-    display: grid;
-    grid-template-columns: 0fr 2.7fr 2fr;
-    padding: 0px;  
+        display: grid;
+        grid-template-columns: 0fr 2.7fr 2fr;
+        padding: 0px;  
     }
 
     .rodape > p {
-    text-align: center;
-    font-size: 9px;
-    color: #000000;
-    margin: 1px auto auto auto;
-    text-indent: 0px;
+        text-align: center;
+        font-size: 9px;
+        color: #000000;
+        margin: 1px auto auto auto;
+        text-indent: 0px;
     }
 
     div#cruz > img {
