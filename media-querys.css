@@ -165,9 +165,14 @@
         text-indent: 0px;
         margin-left: 0px; 
         color: #d4d11e;
-        text-shadow: rgb(14, 13, 13) 1px 1px ;}
+        text-shadow: rgb(14, 13, 13) 1px 1px ;
+    }
 
-
+    .link-lista {
+    color: #d4d11e;
+    font-weight: bolder;
+    text-shadow: rgb(14, 13, 13) 1px 1px ;
+    }
         
     .centrom {
         width: 350px;
@@ -369,6 +374,11 @@
         margin-right: 15px;
         padding: 7px 0px;
         border-bottom: 1px solid burlywood;  
+    }
+    .link-lista {
+    color: #d4d11e;
+    font-weight: bolder;
+    text-shadow: rgb(14, 13, 13) 1px 1px ;
     }
 
     .bloco_inf {
@@ -604,6 +614,12 @@
         margin-right: 15px;
         padding: 7px 0px;
         border-bottom: 1px solid burlywood;  
+    }
+
+    .link-lista {
+    color: #d4d11e;
+    font-weight: bolder;
+    text-shadow: rgb(14, 13, 13) 1px 1px ;
     }
 
     .bloco_inf {
@@ -843,6 +859,12 @@
         border-bottom: 1px solid burlywood;  
     }
     
+    .link-lista {
+    color: #d4d11e;
+    font-weight: bolder;
+    text-shadow: rgb(14, 13, 13) 1px 1px ;
+    }
+
     .seguros {
         display: flex;
         flex-wrap: wrap;
