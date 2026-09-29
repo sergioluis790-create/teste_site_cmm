@@ -226,7 +226,7 @@
 
 }
 
-@media screen and (min-width:352px) and (max-width: 408px){
+@media screen and (min-width:353px) and (max-width: 408px){
     h1{
     font-size: 24px;
     font-weight: bold;
@@ -462,7 +462,7 @@
     }
 }
 
-@media screen and (min-width: 345px) and (max-width: 351px) {
+@media screen and (min-width: 345px) and (max-width: 352px) {
      h1{
     font-size: 22px;
     font-weight: bold;
