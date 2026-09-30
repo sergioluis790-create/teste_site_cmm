@@ -39,14 +39,19 @@
     }/* final das configurações  gerais de estilo do site*/
 
     div#lg > img {
-        width: 88px;
+        width: 80px;
         height: 52px;
         margin-top: 3px;
         margin-bottom: 1px;
-    }
+     }
     header > div {
         display: grid;
-        grid-template-columns: 3fr 1.1fr;
+        grid-template-columns: 2.9fr 1,3fr;
+    }
+
+    div#cntto {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
     div#lg > q {
