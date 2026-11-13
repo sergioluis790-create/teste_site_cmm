@@ -1,6 +1,22 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 408px) and (max-width: 458px) {
+@media screen and (min-width: 886px) {
+    
+    div#cntto > a > img {
+    width: 35px;
+    height: 35px;
+    margin: 0px 30px 0px 0px;
+    }
+
+    .rodape > a > img {
+    width: 35px;
+    height: 35px;
+    margin: 0px 20px 0px 0px;
+    }
+
+}
+
+@media screen and (min-width: 408px) and (max-width: 602px) {
 
     h1{
         font-size: 24px;
@@ -90,6 +106,7 @@
         background-color: none;
         color: #1917a3d8;
         text-shadow: #ebdd126f 1px 1px 0px;
+        transition: 0.6s;
     }
 
     span#menu-burguer{
@@ -106,10 +123,11 @@
         font-weight: bolder;
         color: #1917a3d8;
         text-shadow: #ebdd126f 1px 1px 0px;
+        transition: 0.6s;
     }/* final das configurações de estilo do menu do site*/
     
     main { /* inicio das configurações de estilo do corpo do site*/
-        margin: 5% auto;
+        margin: 15% auto;
         min-width: 270px;
         max-width: 800px;
         padding: 20px;
@@ -299,6 +317,7 @@
     div#cntto > a {
         padding-right: 0px;
     }
+
     div#cntto {
         margin: 30px 0px 0px 0px;
     }
@@ -323,6 +342,7 @@
         background-color: none;
         color: #1917a3d8;
         text-shadow: #ebdd126f 1px 1px 0px;
+        transition: 0.6s;
     }
 
     span#menu-burguer{
@@ -342,7 +362,7 @@
     }/* final das configurações de estilo do menu do site*/
     
     main { /* inicio das configurações de estilo do corpo do site*/
-        margin: 5% auto;
+        margin: 15% auto;
         min-width: 270px;
         max-width: 800px;
         padding: 20px;

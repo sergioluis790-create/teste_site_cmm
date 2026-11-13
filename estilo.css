@@ -28,7 +28,7 @@ body {
     background-image: linear-gradient(rgba(34, 34, 143, 0.795),rgba(119, 117, 117, 0.596),rgba(34, 34, 143, 0.795));
 }*/
 body {/* Inicio das configurações de estilo do site*/
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-image: linear-gradient(rgba(34, 34, 143, 0.795),rgba(119, 117, 117, 0.596),rgba(34, 34, 143, 0.795));
     background-image: url(sitecentro/imagens-para-o-site/fundo.jpg);
     background-size: cover; 
@@ -37,13 +37,11 @@ body {/* Inicio das configurações de estilo do site*/
    /* min-width: 590px;*/
     display: block;
     padding: 0px 2px 0px 2px;
-    margin: auto auto 0px auto;
-    
-    
+    margin: auto auto 0px auto;  
 } /* O boby está responsivo a todas as telas testasdas*/
 
 h1{
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bold;
     font-variant: small-caps;
     color: #10039af8;
@@ -55,7 +53,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
     margin: 10px 0px 10px 0px;
     text-align: center;
@@ -65,7 +63,7 @@ h2{
 
 h3{
     text-indent: 10px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     margin: 2px 0px 8px 0px;
     color: #10039af8;
@@ -73,7 +71,7 @@ h3{
 }
 
 p{
-    font-size: 16px;
+    font-size: 18px;
     text-indent: 20px;
     text-align: justify;
     margin-bottom: 1em;
@@ -90,7 +88,7 @@ header {/* Inicio das configurações de estilo do cabeçalho do site*/
 
 div#lg > q {
     color: #1917a3d8;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: bold;
     margin: auto;
