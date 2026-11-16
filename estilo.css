@@ -307,8 +307,8 @@ div#ginecologia {
 }
 
 div#interna {
-    background-image: url(sitecentro/logotipos/Icons-Land-Medical-People-Doctor-Male.256.png);
-    background-size: contain;
+    background-image: url(sitecentro/imagens-para-o-site/dairon.jpeg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
